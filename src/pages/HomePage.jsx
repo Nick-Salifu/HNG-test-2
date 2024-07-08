@@ -4,7 +4,7 @@ import NavMobile from "../components/NavMobile"
 
 function HomePage() {
     return (
-        <div className="bg-black h-screen">
+        <div className="lg:bg-black h-screen">
             <Navbar /> 
             <NavMobile />
             <Hero />
