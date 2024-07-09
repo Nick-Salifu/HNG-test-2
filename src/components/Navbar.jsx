@@ -8,12 +8,12 @@ function Navbar() {
     // ]
 
     return (
-        <nav className="hidden lg:block text-white container mx-auto p-8">
+        <nav className="hidden p-8 text-white  lg:block lg:bg-black">
             <div className="flex items-center justify-between">
                 <div>
-                   <h1 className="font-bold text-xl uppercase font-days">panda</h1> 
+                   <h1 className="text-xl font-bold uppercase font-days">panda</h1> 
                 </div>
-                <ul className="flex space-x-10 uppercase text-sm ml-8">
+                <ul className="flex ml-8 space-x-10 text-sm uppercase">
                     <Link to="/">
                         Home
                         <div className="border-b-2"></div>
@@ -22,10 +22,10 @@ function Navbar() {
                    <li><a href="">About us</a></li>
                 </ul>
                 <div>
-                    <input type="search" className="rounded-lg px-4 py-1 w-72 text-black" placeholder="Search"/>
+                    <input type="search" className="px-4 py-1 text-black rounded-lg w-72" placeholder="Search"/>
                 </div>
                 <div className="flex space-x-4">
-                    <div className="flex items-center space-x-4 mr-4">
+                    <div className="flex items-center mr-4 space-x-4">
                         <img src="./images/navlove.png" alt="" className="h-[22px] cursor-pointer" />
                         <Link to="/cartpage">
                             <img src="./images/cart.png" alt="" className="cursor-pointer" />
@@ -33,7 +33,7 @@ function Navbar() {
                        
                     </div>
                     <div className="border-r-2"></div>
-                    <button className="bg-white px-3 py-1 text-black rounded-full text-sm">Login in</button>
+                    <button className="px-3 py-1 text-sm text-black bg-white rounded-full">Login in</button>
                 </div>
             </div>  
         </nav>

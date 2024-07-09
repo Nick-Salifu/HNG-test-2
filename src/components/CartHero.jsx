@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function CartHero() {
     return (
         <div className="mb-8 -mt-4">
@@ -58,7 +60,8 @@ function CartHero() {
                         </div>
 
                         <div className="flex items-center gap-2 mt-4">
-                            <div className="w-[100%] text-white font-semibold uppercase bg-black text-center py-1 rounded-lg">add to cart</div>
+                            <div className="w-[100%] text-white font-semibold uppercase bg-black text-center py-1 rounded-lg cursor-pointer"><Link to="/checkoutpage">add to cart </Link></div>
+        
                             <div className="px-2 py-[7px] bg-black rounded-lg"><img src="/images/filledlove.png" alt="" /></div>
                         </div>
 

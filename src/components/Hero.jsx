@@ -1,8 +1,8 @@
 function Hero() {
     return (
         <div>  
-            <div className="lg:px-20 mb-6 p-6 flex gap-6">
-                <div className=" hidden lg:flex flex-col justify-end mb-6 gap-1">
+            <div className="lg:flex lg:gap-6 lg:mb-6 lg:px-20 lg:p-6 lg:bg-black">
+                <div className="flex-col justify-end hidden gap-1 mb-6 lg:flex">
                     <img src="/images/downarrow.png" alt="" />
                     <img src="/images/downarrow.png" alt="" />
                     <img src="/images/downarrow.png" alt="" />
@@ -10,21 +10,21 @@ function Hero() {
                 </div>
 
                 <div className="relative">
-                    <div className="text-white flex flex-col items-center lg:items-start absolute lg:top-44 lg:left-36">
-                        <h1 className="text-3xl lg:text-7xl tracking-wider font-days uppercase mb-4">Pandas clothing</h1>
-                        <ul className="capitalize font-days text-sm space-y-6">
+                    <div className="absolute flex flex-col items-center text-white lg:items-start top-[30%] w-full mx-auto lg:top-44  lg:mx-20">
+                        <h1 className="mb-4 text-3xl tracking-wider uppercase lg:text-7xl font-days">Pandas clothing</h1>
+                        <ul className="space-y-6 text-sm capitalize font-days">
                             <li className="flex items-center gap-1"><span><img src="/images/whitearrow.png" alt="" /></span>shoes</li>
                             <li className="ml-2">accessories</li>
                             <li className="ml-2">shirts</li>
                         </ul>
                     </div>
                     <img src="/images/heroimage.png" alt="hero image" className="hidden lg:block" />
-                    <div className="container mx-auto">
-                        <img src="/images/mobilehero.png" alt="" className="lg:hidden md:w-full" />
+                    <div className="">
+                        <img src="/images/mobilehero.png" alt="" className="w-full lg:hidden" />
                     </div>
                 </div>
 
-                <div className="hidden lg:flex flex-col justify-end mb-6 gap-1">
+                <div className="flex-col justify-end hidden gap-1 mb-6 lg:flex">
                     <img src="/images/downarrow.png" alt="" />
                     <img src="/images/downarrow.png" alt="" />
                     <img src="/images/downarrow.png" alt="" />
@@ -32,7 +32,7 @@ function Hero() {
                 </div>
                 
             </div>
-            <div className="w-full -mt-8 lg:m-0">
+            <div className="w-full lg:-mt-8 lg:m-0">
                 <p className="text-white font-semibold py-3 bg-[#CF5C36] uppercase text-center font-inter">up to 30% off every item</p>
             </div>    
         </div>

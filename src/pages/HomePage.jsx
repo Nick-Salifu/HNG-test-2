@@ -8,14 +8,16 @@ import NewArrivals from "../components/NewArrivals"
 import Pandas from "../components/Pandas"
 import ProductDisplay from "../components/ProductDisplay"
 import StyleGallery from "../components/StyleGallery"
+import SamplePage from "../components/SamplePage"
 
 function HomePage() {
     return (
-        <div className="h-screen lg:bg-black">
+        <div >
             {/* <Outlet /> */}
             <Navbar /> 
             <NavMobile />
             <Hero />
+            <SamplePage />
             <ProductDisplay />
             <NewArrivals />
             <StyleGallery />

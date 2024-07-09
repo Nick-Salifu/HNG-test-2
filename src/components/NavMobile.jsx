@@ -14,8 +14,7 @@ function NavMobile() {
                     <img src="/images/search.png" alt="search" />
                     <Link to="/cartpage">
                         <img src="/images/blackcart.png" alt="cart" />
-                    </Link>
-                    
+                    </Link> 
                 </div>
             </div>
         </nav>

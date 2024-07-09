@@ -1,7 +1,14 @@
+import CartNav from "../components/CartNav"
+import CheckoutHero from "../components/CheckoutHero"
+import NavMobile from "../components/NavMobile"
+
+
 function CheckoutPage() {
     return (
         <div>
-            Checkout
+            <CartNav />
+            <NavMobile />
+            <CheckoutHero />
         </div>
     )
 }
