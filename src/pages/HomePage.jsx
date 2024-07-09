@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom"
 import CallToAction from "../components/CallToAction"
 import Footer from "../components/Footer"
 import Hero from "../components/Hero"
@@ -10,7 +11,8 @@ import StyleGallery from "../components/StyleGallery"
 
 function HomePage() {
     return (
-        <div className="lg:bg-black h-screen">
+        <div className="h-screen lg:bg-black">
+            {/* <Outlet /> */}
             <Navbar /> 
             <NavMobile />
             <Hero />

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function Navbar() {
     // const navLinks = [
     //     {link: 'Home'},
@@ -12,10 +14,10 @@ function Navbar() {
                    <h1 className="font-bold text-xl uppercase font-days">panda</h1> 
                 </div>
                 <ul className="flex space-x-10 uppercase text-sm ml-8">
-                    <li>
-                        <a href="">Home</a>
+                    <Link to="/">
+                        Home
                         <div className="border-b-2"></div>
-                    </li>
+                    </Link>
                    <li className="flex items-center space-x-2"><a href="">Products</a><span><img className="w-2" src="/images/downarrow.png" alt="" /></span></li>
                    <li><a href="">About us</a></li>
                 </ul>
@@ -25,7 +27,10 @@ function Navbar() {
                 <div className="flex space-x-4">
                     <div className="flex items-center space-x-4 mr-4">
                         <img src="./images/navlove.png" alt="" className="h-[22px] cursor-pointer" />
-                        <img src="./images/cart.png" alt="" className="cursor-pointer" />
+                        <Link to="/cartpage">
+                            <img src="./images/cart.png" alt="" className="cursor-pointer" />
+                        </Link>
+                       
                     </div>
                     <div className="border-r-2"></div>
                     <button className="bg-white px-3 py-1 text-black rounded-full text-sm">Login in</button>
