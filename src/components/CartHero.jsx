@@ -2,25 +2,25 @@ import { Link } from "react-router-dom"
 
 function CartHero() {
     return (
-        <div className="mb-8 -mt-4">
+        <div className="">
             <div className="w-full p-3 text-sm text-center text-white uppercase bg-black font-days">up to 30% off every item</div>
 
-            <div className="container flex mx-auto gap-14">
+            <div className="flex flex-col items-center lg:mx-8 lg:flex-row gap-14">
                 {/* right part */}
-                <div className="w-2/3">
+                <div>
                     <div className="mb-6"><img src="/images/carthero.png" alt="" /></div>
-                    <div className="flex items-center gap-[15px]">
+                    <div className="flex items-center justify-center gap-2 mx-auto lg:gap-[15px]">
                         <img src="/images/firstunder.png" alt="" />
                         <img src="/images/secondunder.png" alt="" />
                         <img src="/images/thirdunder.png" alt="" />
-                        <img src="/images/fourthunder.png" alt="" />
-                        <img src="/images/secondunder.png" alt="" />
-                        <img src="/images/fifthunder.png" alt="" />
+                        <img src="/images/fourthunder.png" alt="" className="hidden sm:block"/>
+                        <img src="/images/secondunder.png" alt="" className="hidden sm:block" />
+                        <img src="/images/fifthunder.png" alt="" className="hidden lg:block" />
                     </div>
                 </div>
 
                 {/* left part */}
-                <div className="mt-10">
+                <div className="m-10">
                     <div className="flex items-center mb-10 gap-14">
                         <div>
                             <p className="text-sm font-semibold capitalize">pandas</p>
