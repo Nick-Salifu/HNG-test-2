@@ -5,7 +5,7 @@ function CheckoutHero() {
                 <p className="text-base font-semibold capitalize">Cart <span>&gt;</span> Place order <span>&gt;</span> Pay <span>&gt;</span> Order complete <span>&gt;</span></p>
             </div>
 
-            <div className="container flex flex-col items-center justify-between gap-24 py-8 mx-auto lg:flex-row">
+            <div className="container flex flex-col gap-24 py-8 mx-auto lg:flex-row">
                 {/* right side */}
                 <div>
                     <div className="text-white mb-7">
@@ -14,8 +14,9 @@ function CheckoutHero() {
                                 <p className="text-sm font-semibold">Shipping fee</p>
                                 <p className="text-sm font-bold"><span className="uppercase">free shipping standard</span> on <span className="uppercase">pandas products</span></p>
                             </div>
-                            <div>
-                                <p>Add <span>&gt;</span></p>
+                            <div className="flex">
+                                <p>Add</p>
+                                <span>&gt;</span>
                             </div>
                         </div>
                     </div>
@@ -45,14 +46,16 @@ function CheckoutHero() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex items-center space-x-3">
-                                <div className="flex justify-center px-3 space-x-1 border border-black rounded-lg">
+                            <div className="flex flex-col items-center justify-center space-y-3 md:space-y-0 md:flex-row md:space-x-3">
+                                <div className="flex items-center px-3 space-x-1 border border-black rounded-lg">
                                     <p className="text-sm">Qty</p>
                                     <p>1</p>
-                                    <div>&#xfe40;</div>
+                                    <div><img src="/images/blackdownarrow.png" alt="" /></div>
                                 </div>
-                                <img src="/images/emptylove.png" alt="" />
-                                <img src="/images/delete.png" alt="" />
+                                <div className="flex space-x-3">
+                                    <img src="/images/emptylove.png" alt="" />
+                                    <img src="/images/delete.png" alt="" />
+                                </div>
                             </div>
                         </div>
                         
@@ -69,21 +72,23 @@ function CheckoutHero() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex items-center space-x-3">
-                                <div className="flex px-3 space-x-1 border border-black rounded-lg">
+                            <div className="flex flex-col items-center justify-center space-y-3 md:space-y-0 md:space-x-3 md:flex-row">
+                                <div className="flex items-center px-3 space-x-1 border border-black rounded-lg">
                                     <p className="text-sm">Qty</p>
                                     <p>1</p>
-                                    <div>&#xfe40;</div>
+                                    <p><img src="/images/blackdownarrow.png" alt="" /></p>
                                 </div>
-                                <img src="/images/redlove.png" alt="" className="w-4" />
-                                <img src="/images/delete.png" alt="" />
+                                <div className="flex space-x-3">
+                                    <img src="/images/redlove.png" alt="" className="w-4" />
+                                    <img src="/images/delete.png" alt="" />
+                                </div>  
                             </div>
                         </div>
                     </div>
                 </div>
                 
                 {/* left part */}
-                <div className="flex flex-col max-w-full ">
+                <div className="flex flex-col">
                     <div className="bg-[#F0F2F5] w-96 p-5 rounded-lg">
                         <h1 className="mb-6 font-semibold">Order Summary</h1>
                         <div className="mb-6 text-right">
