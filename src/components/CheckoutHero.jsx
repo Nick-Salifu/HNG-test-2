@@ -5,7 +5,7 @@ function CheckoutHero() {
                 <p className="text-base font-semibold capitalize">Cart <span>&gt;</span> Place order <span>&gt;</span> Pay <span>&gt;</span> Order complete <span>&gt;</span></p>
             </div>
 
-            <div className="flex m-16 gap-28">
+            <div className="flex flex-col m-16 lg:flex-row gap-28">
                 {/* right side */}
                 <div>
                     <div className="text-white mb-7">

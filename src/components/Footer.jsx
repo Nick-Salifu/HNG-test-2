@@ -36,9 +36,9 @@ function Footer() {
                     <li>discord</li>
                 </ul>
 
-                <div className="flex flex-col items-center space-y-3  lg:mr-10">
+                <div className="flex flex-col items-center space-y-3 lg:mr-10">
                     <p className="text-sm text-white capitalize">social media</p>
-                    <div className="flex gap-3">
+                    <div className="flex gap-2">
                         <img  src="/images/facebook.png" alt="" />
                         <img  src="/images/instagram.png" alt="" />
                         <img  src="/images/twitter.png" alt="" />
