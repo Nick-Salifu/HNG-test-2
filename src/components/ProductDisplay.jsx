@@ -15,88 +15,85 @@ function ProductDisplay() {
                     <img src="/images/arrowleft.png" alt="" />
                 </div>
 
-                <div className='flex flex-col gap-6'>
-                    <div className="flex">
+                    <div>
                         <img src="/images/s3black.png" alt="" />
-                        {/* <img src="/images/redlove.png" alt="" className=" bg-[#EEE5E9] p-[5px] rounded-full" /> */}
+                        
                     </div>
-                    <div className="ml-16">
-                        <p className="text-sm font-semibold">Pandas</p>
-                        <p className="text-lg font-bold leading-5 capitalize">Printed black <br/> T-Shirt</p>
-                        <p className="text-[#CF5C36] font-semibold">N40.00</p>
-                        <div className="flex">
-                            <img src="/images/orangestar.png" alt="" />
-                            <img src="/images/orangestar.png" alt="" />
-                            <img src="/images/orangestar.png" alt="" />
-                            <img src="/images/orangestar.png" alt="" />
-                            <img src="/images/blackstar.png" alt="" />
-                        </div>
-                    </div>
-                </div>
                 
-                <div>
-                    <div className="flex">
+                    <div>
                         <img src="/images/gown.png" alt="" />
-                        {/* <img src="/images/redlove.png" alt="" className=" bg-[#EEE5E9] p-[5px] rounded-full" /> */}
+                    
                     </div>
-                    <div className="ml-16">
-                        <p className="text-sm font-semibold">Pandas</p>
-                        <p className="text-lg font-bold leading-5 capitalize">Printed black <br/> T-Shirt</p>
-                        <p className="text-[#CF5C36] font-semibold">N40.00</p>
-                        <div className="flex">
-                            <img src="/images/orangestar.png" alt="" />
-                            <img src="/images/orangestar.png" alt="" />
-                            <img src="/images/orangestar.png" alt="" />
-                            <img src="/images/orangestar.png" alt="" />
-                            <img src="/images/blackstar.png" alt="" />
-                        </div>
-                    </div>
-                </div>
                 
-                <div>
-                    <div className="flex">
+                    <div>
                         <img src="/images/hat.png" alt="" />
-                        {/* <img src="/images/filledlove.png" alt="" className=" bg-[#EEE5E9] p-[5px] rounded-full" /> */}
+                       
                     </div>
-                    <div className="ml-14">
-                        <p className="text-sm font-semibold">Pandas</p>
-                        <p className="text-lg font-bold leading-5 capitalize">Printed black <br/> T-Shirt</p>
-                        <p className="text-[#CF5C36] font-semibold">N40.00</p>
-                        <div className="flex">
-                            <img src="/images/orangestar.png" alt="" />
-                            <img src="/images/orangestar.png" alt="" />
-                            <img src="/images/orangestar.png" alt="" />
-                            <img src="/images/orangestar.png" alt="" />
-                            <img src="/images/blackstar.png" alt="" />
-                        </div>
-                    </div>
-                </div>
                 
-                 <div className='hidden lg:block'>
-                    <div className="flex ">
+                    <div>
                         <img src="/images/bra.png" alt="" />
-                        {/* <img src="/images/filledlove.png" alt="" className=" bg-[#EEE5E9] p-[5px] rounded-full" /> */}
+                    
                     </div>
-                    <div className="ml-14">
-                        <p className="text-sm font-semibold">Pandas</p>
-                        <p className="text-lg font-bold leading-5 capitalize">Printed black <br/> T-Shirt</p>
-                        <p className="text-[#CF5C36] font-semibold">N40.00</p>
-                        <div className="flex">
-                            <img src="/images/orangestar.png" alt="" />
-                            <img src="/images/orangestar.png" alt="" />
-                            <img src="/images/orangestar.png" alt="" />
-                            <img src="/images/orangestar.png" alt="" />
-                            <img src="/images/blackstar.png" alt="" />
-                        </div>
-                    </div>
-                </div>
 
                 <div className="mb-24">
                     <img src="/images/arrowright.png" alt="" />
-                </div>
-                 
+                </div>     
             </div>
-        
+
+            <div className='flex items-center gap-2 justify-around'>
+                <div>
+                    <p className="text-sm font-semibold">Pandas</p>
+                    <p className="text-lg font-bold leading-5 capitalize">Printed black <br/> T-Shirt</p>
+                    <p className="text-[#CF5C36] font-semibold">N40.00</p>
+                    <div className="flex">
+                        <img src="/images/orangestar.png" alt="" />
+                        <img src="/images/orangestar.png" alt="" />
+                        <img src="/images/orangestar.png" alt="" />
+                        <img src="/images/orangestar.png" alt="" />
+                        <img src="/images/blackstar.png" alt="" />
+                    </div>
+                </div>
+                
+                <div>
+                    <p className="text-sm font-semibold">Pandas</p>
+                    <p className="text-lg font-bold leading-5 capitalize">Printed black <br/> T-Shirt</p>
+                    <p className="text-[#CF5C36] font-semibold">N40.00</p>
+                    <div className="flex">
+                        <img src="/images/orangestar.png" alt="" />
+                        <img src="/images/orangestar.png" alt="" />
+                        <img src="/images/orangestar.png" alt="" />
+                        <img src="/images/orangestar.png" alt="" />
+                        <img src="/images/blackstar.png" alt="" />
+                    </div>
+                </div>
+                
+                <div>
+                    <p className="text-sm font-semibold">Pandas</p>
+                    <p className="text-lg font-bold leading-5 capitalize">Printed black <br/> T-Shirt</p>
+                    <p className="text-[#CF5C36] font-semibold">N40.00</p>
+                    <div className="flex">
+                        <img src="/images/orangestar.png" alt="" />
+                        <img src="/images/orangestar.png" alt="" />
+                        <img src="/images/orangestar.png" alt="" />
+                        <img src="/images/orangestar.png" alt="" />
+                        <img src="/images/blackstar.png" alt="" />
+                    </div>
+                </div>
+                
+                <div>
+                    <p className="text-sm font-semibold">Pandas</p>
+                    <p className="text-lg font-bold leading-5 capitalize">Printed black <br/> T-Shirt</p>
+                    <p className="text-[#CF5C36] font-semibold">N40.00</p>
+                    <div className="flex">
+                        <img src="/images/orangestar.png" alt="" />
+                        <img src="/images/orangestar.png" alt="" />
+                        <img src="/images/orangestar.png" alt="" />
+                        <img src="/images/orangestar.png" alt="" />
+                        <img src="/images/blackstar.png" alt="" />
+                    </div>
+                </div>
+                
+            </div>
         </div>
     )
 }
