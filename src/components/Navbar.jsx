@@ -27,7 +27,7 @@ function Navbar() {
                 <div className="flex space-x-4">
                     <div className="flex items-center mr-4 space-x-4">
                         <img src="./images/navlove.png" alt="" className="h-[22px] cursor-pointer" />
-                        <Link to="/#/cartpage">
+                        <Link to="/cartpage">
                             <img src="./images/cart.png" alt="" className="cursor-pointer" />
                         </Link>
                        
