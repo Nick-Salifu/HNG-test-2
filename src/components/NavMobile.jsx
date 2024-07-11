@@ -8,7 +8,7 @@ function NavMobile() {
                     <img src="/images/hambuger.png" alt="hambuger" />
                 </div>
                 <div>
-                    <h1 className="text-xl font-bold uppercase font-days">panda</h1>
+                    <h1 className="text-xl font-bold uppercase font-days"><Link to="/">panda</Link></h1>
                 </div>
                 <div className="flex items-center space-x-4">
                     <img src="/images/search.png" alt="search" />

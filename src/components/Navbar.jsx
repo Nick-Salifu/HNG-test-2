@@ -8,7 +8,7 @@ function Navbar() {
     // ]
 
     return (
-        <nav className="hidden p-8 text-white  lg:block lg:bg-black">
+        <nav className="hidden p-8 text-white lg:block lg:bg-black">
             <div className="flex items-center justify-between">
                 <div>
                    <h1 className="text-xl font-bold uppercase font-days">panda</h1> 
