@@ -1,22 +1,11 @@
 import React from 'react';
-import Slider from "react-slick";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css'
 
 
 
 function ProductDisplay() {
-    // const  settings = {
-    //     // dots: true,
-    //     infinite: true,
-    //     speed: 500,
-    //     slidesToShow: 2,
-    //     slidesToScroll: 1,
-    //     autoplay: true,
-    //     autoplaySpeed: 3000,
-    // }
-    
-    
+     
     return (
         <div className="container px-10 mx-auto my-24">
             <h1 className="mb-5 text-2xl font-bold text-center uppercase lg:mb-16">popular products</h1>
@@ -27,7 +16,7 @@ function ProductDisplay() {
                 </div>
 
                 <div className='flex flex-col gap-6'>
-                    <div className="relative flex items-start">
+                    <div className="flex">
                         <img src="/images/s3black.png" alt="" />
                         {/* <img src="/images/redlove.png" alt="" className=" bg-[#EEE5E9] p-[5px] rounded-full" /> */}
                     </div>
@@ -46,7 +35,7 @@ function ProductDisplay() {
                 </div>
                 
                 <div>
-                    <div className="relative flex items-start">
+                    <div className="flex">
                         <img src="/images/gown.png" alt="" />
                         {/* <img src="/images/redlove.png" alt="" className=" bg-[#EEE5E9] p-[5px] rounded-full" /> */}
                     </div>
@@ -65,7 +54,7 @@ function ProductDisplay() {
                 </div>
                 
                 <div>
-                    <div className="relative flex items-start">
+                    <div className="flex">
                         <img src="/images/hat.png" alt="" />
                         {/* <img src="/images/filledlove.png" alt="" className=" bg-[#EEE5E9] p-[5px] rounded-full" /> */}
                     </div>
@@ -84,7 +73,7 @@ function ProductDisplay() {
                 </div>
                 
                  <div className='hidden lg:block'>
-                    <div className=" relative flex items-start">
+                    <div className="flex ">
                         <img src="/images/bra.png" alt="" />
                         {/* <img src="/images/filledlove.png" alt="" className=" bg-[#EEE5E9] p-[5px] rounded-full" /> */}
                     </div>
