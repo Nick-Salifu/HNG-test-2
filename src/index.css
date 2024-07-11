@@ -2,16 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-
-/* <div className="ml-16">
-    <p className="text-sm font-semibold">Pandas</p>
-    <p className="text-lg font-bold leading-5 capitalize">Printed black <br/> T-Shirt</p>
-    <p className="text-[#CF5C36] font-semibold">N40.00</p>
-    <div className="flex">
-        <img src="/images/orangestar.png" alt="" />
-        <img src="/images/orangestar.png" alt="" />
-        <img src="/images/orangestar.png" alt="" />
-        <img src="/images/orangestar.png" alt="" />
-        <img src="/images/blackstar.png" alt="" />
-    </div>
-</div> */

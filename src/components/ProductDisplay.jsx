@@ -30,7 +30,7 @@ function ProductDisplay() {
                        
                     </div>
                 
-                    <div>
+                    <div className='hidden md:block'>
                         <img src="/images/bra.png" alt="" />
                     
                     </div>
@@ -40,7 +40,7 @@ function ProductDisplay() {
                 </div>     
             </div>
 
-            <div className='flex items-center gap-2 justify-around'>
+            <div className='flex items-center gap-6 justify-around'>
                 <div>
                     <p className="text-sm font-semibold">Pandas</p>
                     <p className="text-lg font-bold leading-5 capitalize">Printed black <br/> T-Shirt</p>
@@ -80,7 +80,7 @@ function ProductDisplay() {
                     </div>
                 </div>
                 
-                <div>
+                <div className='hidden md:block'>
                     <p className="text-sm font-semibold">Pandas</p>
                     <p className="text-lg font-bold leading-5 capitalize">Printed black <br/> T-Shirt</p>
                     <p className="text-[#CF5C36] font-semibold">N40.00</p>
