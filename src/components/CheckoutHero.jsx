@@ -89,7 +89,7 @@ function CheckoutHero() {
                 
                 {/* left part */}
                 <div className="flex flex-col items-center md:items-start">
-                    <div className="bg-[#F0F2F5] w-96 p-5 rounded-lg">
+                    <div className="bg-[#F0F2F5] w-72 sm:w-96 p-5 rounded-lg">
                         <h1 className="mb-6 font-semibold">Order Summary</h1>
                         <div className="mb-6 text-right">
                             <p className="font-bold">N14.00</p>
