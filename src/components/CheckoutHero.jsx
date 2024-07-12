@@ -47,7 +47,7 @@ function CheckoutHero() {
                                 </div>
                             </div>
                             <div className="flex flex-col items-center justify-center space-y-3 md:space-y-0 md:flex-row md:space-x-3">
-                                <div className="flex items-center px-3 space-x-1 border border-black rounded-lg">
+                                <div className="flex items-center px-3 mr-2 space-x-1 border border-black rounded-lg md:mr-0">
                                     <p className="text-sm">Qty</p>
                                     <p>1</p>
                                     <div><img src="/images/blackdownarrow.png" alt="" /></div>
@@ -73,7 +73,7 @@ function CheckoutHero() {
                                 </div>
                             </div>
                             <div className="flex flex-col items-center justify-center space-y-3 md:space-y-0 md:space-x-3 md:flex-row">
-                                <div className="flex items-center px-3 space-x-1 border border-black rounded-lg">
+                                <div className="flex items-center px-3 mr-2 space-x-1 border border-black rounded-lg md:mr-0">
                                     <p className="text-sm">Qty</p>
                                     <p>1</p>
                                     <p><img src="/images/blackdownarrow.png" alt="" /></p>
