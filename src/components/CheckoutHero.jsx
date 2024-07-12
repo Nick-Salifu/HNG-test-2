@@ -88,7 +88,7 @@ function CheckoutHero() {
                 </div>
                 
                 {/* left part */}
-                <div className="flex flex-col">
+                <div className="flex flex-col items-center md:items-start">
                     <div className="bg-[#F0F2F5] w-96 p-5 rounded-lg">
                         <h1 className="mb-6 font-semibold">Order Summary</h1>
                         <div className="mb-6 text-right">
@@ -96,7 +96,7 @@ function CheckoutHero() {
                             <p className="text-[#F44336] text-sm">saved N2.00</p>
                             <p className="text-sm capitalize">reward 40 panda <span className="uppercase">points</span></p>
                         </div>
-                        <div className="p-2 mb-8 text-center font-semibold text-white capitalize bg-black rounded-lg">checkout now (2)</div>
+                        <div className="p-2 mb-8 font-semibold text-center text-white capitalize bg-black rounded-lg">checkout now (2)</div>
                     </div>
 
                     <div className="bg-[#F0F2F5] w-60 mt-6 p-6 rounded-lg">
